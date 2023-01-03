@@ -2,7 +2,7 @@
   "name": "chii",
   "version": "1.7.2",
   "description": "Chrome devtools framework",
-  "main": "./server/index.js",
+  "main": "server/index.js",
   "bin": {
     "chii": "./bin/chii.js"
   },
