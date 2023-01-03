@@ -1,6 +1,5 @@
 const Koa = require('koa');
 const https = require('https');
-
 const router = require('./middle/router');
 const compress = require('./middle/compress');
 const util = require('./lib/util');
@@ -55,4 +54,3 @@ async function start({
   }
 }
 start();
-
