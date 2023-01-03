@@ -3,7 +3,7 @@
     "name":"debug-mobile",
     "builds": [
         {
-            "src": "server/index.js",
+            "src": "*.js",
             "use": "@vercel/node"
         }
     ],
